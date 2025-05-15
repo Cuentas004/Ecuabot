@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>AutoBot Solutions</title>
+  <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
+</head>
+<body class="bg-gray-100 text-gray-800">
+
+  <!-- 1️⃣ Encabezado -->
+  <header class="bg-blue-700 text-white p-6 shadow-md">
+    <div class="max-w-6xl mx-auto flex justify-between items-center">
+      <h1 class="text-2xl font-bold">ECUABOT</h1>
+      <nav class="space-x-4">
+        <a href="#servicios" class="hover:underline">Servicios</a>
+        <a href="#contacto" class="hover:underline">Contacto</a>
+      </nav>
+    </div>
+  </header>
+
+  <!-- 2️⃣ Hero principal -->
+  <section class="bg-white py-20 text-center">
+    <h2 class="text-4xl font-bold mb-4 text-blue-800">Respuestas automáticas para tu negocio</h2>
+    <p class="text-lg mb-6">Bots inteligentes que responden en WhatsApp, Facebook, Instagram y más.</p>
+    <a href="#contacto" class="bg-blue-600 text-white px-6 py-3 rounded-lg hover:bg-blue-700 transition">Contáctanos</a>
+  </section>
+
+
+
+  <!-- 3️⃣ Servicios -->
+   <!-- Imagen encima de la sección Servicios -->
+<div class="bg-white py-8">
+  <img src="img-1.png" alt="Imagen de servicios" class="mx-auto rounded-lg shadow-lg max-w-full h-auto">
+</div>
+
+  <section id="servicios" class="py-16 bg-gray-50">
+    <div class="max-w-4xl mx-auto text-center">
+      <h3 class="text-3xl font-semibold text-blue-700 mb-6">¿Qué ofrecemos?</h3>
+      <ul class="list-disc list-inside text-left mx-auto w-max space-y-2">
+        <li>Automatización de respuestas en múltiples plataformas</li>
+        <li>Configuración rápida y personalizada</li>
+        <li>Atención al cliente 24/7 sin empleados</li>
+        <li>Soporte técnico y mantenimiento</li>
+      </ul>
+    </div>
+  </section>
+
+<!-- 5️⃣ Contacto (responsive) -->
+<section id="contacto" class="py-16 bg-white">
+  <div class="max-w-4xl mx-auto px-4 text-center">
+    <h3 class="text-2xl sm:text-3xl font-semibold text-blue-700 mb-2">
+      Contáctanos
+    </h3>
+
+    <!-- Tu número visible -->
+    <p class="text-gray-700 mb-6 text-base sm:text-lg">
+      También puedes escribirnos directamente a 
+      <strong class="text-blue-600">+593 98 123 4567</strong> (WhatsApp).
+    </p>
+
+    <!-- Formulario para que te escriban -->
+    <form action="https://formsubmit.co/medichat@gmail.com" method="POST"
+      class="space-y-4 max-w-xl w-full mx-auto text-left">
+
+      <input type="text" name="name" required
+        placeholder="Tu nombre"
+        class="w-full p-3 border border-gray-300 rounded">
+
+      <input type="email" name="email" required
+        placeholder="Tu correo electrónico"
+        class="w-full p-3 border border-gray-300 rounded">
+
+      <!-- Campo para número de teléfono -->
+      <input type="tel" name="phone"
+        placeholder="Tu número de teléfono"
+        class="w-full p-3 border border-gray-300 rounded">
+
+      <textarea name="message" rows="4" required
+        placeholder="Tu mensaje"
+        class="w-full p-3 border border-gray-300 rounded"></textarea>
+
+      <button type="submit"
+        class="w-full sm:w-auto bg-blue-600 text-white px-6 py-2 rounded hover:bg-blue-700 transition">
+        Enviar mensaje
+      </button>
+    </form>
+  </div>
+</section>
+
+  <!-- Footer -->
+  <footer class="bg-blue-700 text-white text-center p-4">
+    &copy; 2025 AutoBot Solutions. Todos los derechos reservados.
+  </footer>
+
+  <!-- Botón de WhatsApp flotante -->
+<a href="https://wa.me/5939876543213?text=Hola%2C%20quiero%20más%20información%20sobre%20tus%20bots"
+   class="fixed bottom-5 right-5 bg-green-500 hover:bg-green-600 text-white px-4 py-3 rounded-full shadow-lg flex items-center gap-2 z-50"
+   target="_blank">
+  <svg class="w-6 h-6" fill="currentColor" viewBox="0 0 24 24">
+    <path d="M20.52 3.48A11.87 11.87 0 0012 0a11.87 11.87 0 00-8.52 3.48A11.87 11.87 0 000 12c0 2.12.55 4.15 1.61 5.95L0 24l6.21-1.6A11.88 11.88 0 0012 24a11.87 11.87 0 008.52-3.48A11.87 11.87 0 0024 12a11.87 11.87 0 00-3.48-8.52zM12 22a9.94 9.94 0 01-5.06-1.38l-.36-.21-3.69.95.98-3.59-.23-.37A10.01 10.01 0 1122 12a10 10 0 01-10 10zm5.34-7.5l-1.9-.55a1 1 0 00-1 .26l-.58.59a7.93 7.93 0 01-3.79-3.79l.58-.59a1 1 0 00.26-1l-.55-1.9a1 1 0 00-1-.71H8.18a1 1 0 00-1 1.05 10.03 10.03 0 0010.77 10.77 1 1 0 001.05-1v-1.29a1 1 0 00-.66-.95z"/>
+  </svg>
+  WhatsApp
+</a>
+
+</body>
+</html>
